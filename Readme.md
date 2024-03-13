@@ -16,21 +16,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Frontend Mentor _ Recipe page - Google Chrome 13-03-2024 20_19_22](https://github.com/babybhavani/recepiePage/assets/152834101/54448a32-f2e6-4209-b7b0-0c9c853f25a3)
 
 ### Links
 
@@ -46,59 +36,117 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
+- 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+- Alignment of elements
+- Different font families
+- Flex layouts
+- Flex alignments
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+  <section class="container">
+      <section class="card">
+        <section class="dish-img-container">
+          <img src="assets\images\image-omelette.jpeg" alt="omelette" class="dish-img">
+        </section>
+        <section class="bottom-section">
+          <h1 class="card-heading"> Simple Omelette Recipe
+          </h1>
+          <p class="description"> An easy and quick dish, perfect for any meal. This classic omelette combines beaten
+            eggs
+            cooked
+            to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+          </p>
+          <section class="section colored">
+            <h1 class="section-heading">Preperation Time</h1>
+            <ul class="section-list">
+              <li class="section-list-item"> <b>Total:</b> Approximately 10 minutes</li>
+              <li class="section-list-item"> <b>Preparation:</b> 5 minutes </li>
+              <li class="section-list-item"> <b> Cooking: </b> 5 minutes </li>
+            </ul>
+          </section>
+          <section>
+            <h1 class="section-heading">Instructions</h1>
+            <ol class="ordered-list">
+              <li class="section-list-item">
+                <b>Beat the eggs: </b>In a bowl, beat the eggs with a pinch of salt and pepper until they are well
+                mixed.
+                You can add a tablespoon of water or milk for a fluffier texture.
+              </li>
+              <li class="section-list-item">
+                <b>Heat the pan: </b>Place a non-stick frying pan over medium heat and add butter or oil.
+              </li>
+              <li class="section-list-item">
+                <b>Cook the omelette: </b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to
+                ensure
+                the eggs evenly coat the surface.
+              </li>
+
+              <li class="section-list-item">
+                <b>Add fillings (optional): </b>When the eggs begin to set at the edges but are still slightly runny in
+                the
+                middle, sprinkle your chosen fillings over one half of the omelette.
+              </li>
+              <li class="section-list-item">
+                <b>Enjoy: </b> Serve hot, with additional salt and pepper if needed..
+              </li>
+          </section>
+          <hr>
+          <section>
+            <h1 class="section-heading">Nutrition</h1>
+            <p class="about">The table below shows nutritional values per serving without the additional fillings.</p>
+            <table>
+              <tr>
+                <td>Calories</td>
+                <td>277 kcal</td>
+              </tr>
+              <tr>
+                <td>Carbs</td>
+                <td>0 g</td>
+              </tr>
+              <tr>
+                <td>Protein</td>
+                <td>20 g</td>
+              </tr>
+              <tr>
+                <td>Fat</td>
+                <td>22 g</td>
+              </tr>
+            </table>
+
+          </section>
+
+        </section>
+      </section>
+
+    </section>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+}
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+.card {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 700px;
+    min-width: 200px;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I want to develop the page boyyom section.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@babybhavani](https://www.frontendmentor.io/profile/babybhavani)
