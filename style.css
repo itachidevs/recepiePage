@@ -1,0 +1,140 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 700px;
+    min-width: 200px;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.dish-img-container {
+    width: 100%;
+    height: 20%;
+}
+
+.dish-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.card-heading {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.description {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    color: hsl(30, 10%, 34%);
+
+}
+
+.section-heading {
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color:hsl(14, 45%, 36%);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.section{
+    padding: 30px;
+    margin-top: 20px;
+}
+.colored {
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 7px;
+    
+}
+.colored h1{
+    margin-top: 0px;
+}
+.section-list{
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 30px;}
+.section-list-item{
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+b{
+    font-size: 17x;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color:hsl(30, 10%, 34%) ;
+}
+.ordered-list{
+    list-style-type: number;
+    list-style-position: inside;
+    color: hsl(14, 45%, 36%);
+    line-height: 40px;
+}
+hr{
+    width: 100%;
+    margin-top: 10px;
+}
+.about{
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+table{
+    border-collapse: collapse;
+   margin-top: 10px; 
+   border-spacing: 20px 20px;  
+}
+tr{
+    border: none;
+    border-bottom: 1px solid hsl(14, 45%, 36%);
+   
+}
+td{
+    padding: 10px;
+}
